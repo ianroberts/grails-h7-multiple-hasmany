@@ -5,7 +5,7 @@ import grails.gorm.transactions.Transactional
 class BootStrap {
     def init = {
       createItem(Item)
-      createItem(TaggedItem)
+      createItem(UntaggedItem)
     }
 
     @Transactional
